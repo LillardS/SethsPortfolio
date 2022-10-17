@@ -614,6 +614,12 @@ progress {
   border-radius: 50px 50px 50px 50px;
 }
 
+.img-size-2 {
+  width: 696px;
+  height: auto;
+  object-fit: contain;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
