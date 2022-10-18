@@ -74,6 +74,14 @@
   box-sizing: border-box;
 }
 
+.text-color {
+  color: #64a19d;
+}
+
+.text-style {
+  font-family: "IBM Plex Mono", monospace;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -159,6 +167,8 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 20px;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 abbr[title],
