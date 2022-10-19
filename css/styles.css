@@ -82,6 +82,26 @@
   font-family: "IBM Plex Mono", monospace;
 }
 
+body {
+  border: 3px solid #000;
+}
+
+.rtl {
+  border-top-left-radius: 10%;
+}
+
+.rtr {
+  border-top-right-radius: 10%;
+}
+
+.rbl {
+  border-bottom-left-radius: 10%;
+}
+
+.rbr {
+  border-bottom-right-radius: 10%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -11648,7 +11668,6 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #000;
   }
 }
 .projects-section .project-text {
